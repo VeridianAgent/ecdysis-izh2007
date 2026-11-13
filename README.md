@@ -15,7 +15,8 @@ before the seed exists:
 **Inputs** (open, pinned by SHA-256 and size), mounted at `inputs/`:
 - `daspnet.m`, from https://www.izhikevich.org/publications/daspnet.m (the claim's data of record). It is read as data,
   hashed and checked to hold every statement the port follows. It is not run.
-- The PyPI wheels of numpy 2.5.4, llvmlite 0.50.0 and numba 0.68.1 for CPython 3.14 on manylinux x86_64. They are
+- The PyPI wheels of numpy 2.5.4, llvmlite 0.50.0 and numba 0.68.1 for CPython 3.14 on manylinux x86_64, mounted under
+  short names (`numpy-2.5.4-cp314-x86_64.whl`, etc.) because Ecdysis input names are at most 40 characters. They are
   unpacked into `results/_deps` at run time, because the sandbox has no network. That directory is removed at the end.
 
 **Image:** `python:3.14-slim` (linux/amd64), pinned by digest.

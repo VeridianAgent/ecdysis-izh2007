@@ -43,11 +43,11 @@ WORKERS = 2
 
 INPUT_FILES = {
     "daspnet.m": ("33b92b5c74f7ac9abbcad1596aaf530ddae9ade4b93ffbb7030fe367d0f9d58b", 4189),
-    "numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl":
+    "numpy-2.5.4-cp314-x86_64.whl":
         ("d549420b8858885cea8838a727842249218b9c1da24dd517e25c9c7a948310a3", 16721710),
-    "llvmlite-0.50.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl":
+    "llvmlite-0.50.0-cp314-x86_64.whl":
         ("33ddf12b1e12d7e551e1c1e6ca8087d0aacc931f480019eb33ef2ab77681da4d", 59696587),
-    "numba-0.68.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl":
+    "numba-0.68.1-cp314-x86_64.whl":
         ("b4d210701b32d1d4ffe26d5fc4e96c6b47e2c5d6c4c1a0f76dc48c156ef295ea", 3850743),
 }
 # Statements of daspnet.m that the port follows (compared with whitespace removed).
